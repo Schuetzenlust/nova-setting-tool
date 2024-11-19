@@ -1,0 +1,41 @@
+{
+    "name": "schuetzenlust/nova-setting-tool",
+    "description": "An app setting manager tool for laravel nova",
+    "keywords": [
+        "laravel",
+        "nova",
+        "tool",
+        "setting"
+    ],
+    "homepage": "https://github.com/schuetzenlust/nova-setting-tool",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Lucas",
+            "email": "it-beauftragter@neusser-schuetzenlust.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8",
+        "unisharp/laravel-settings": "^2.0",
+        "doctrine/dbal": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Schuetzenlust\\Cendekia\\SettingTool\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Schuetzenlust\\SettingTool\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -2,6 +2,6 @@
 
 All notable changes to `nova-setting-tool` will be documented in this file
 
-## 1.0.0 - 2018-XX-XX
+## 0.0.1 - 2024-11-19
 
 - initial release
